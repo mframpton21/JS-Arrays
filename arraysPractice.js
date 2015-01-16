@@ -141,19 +141,18 @@ alert(result);
 
 
 // Problem 9
-/*
-  Here we're going to write a function that mimics going shopping and checking things 
-  off of our grocery list, and adding new items to our list. Write a function called removeItem 
-  that is given two arguments, the first is myGroceryList, and the second is an item to 
-  remove from myGroceryList. If the second argument (or the item to add or remove) matches 
-  an item in myGroceryList, remove that item from the your grocery list and return the new, 
-  updated grocery list. Once you do that, write another function called addItem that is given 
-  two arguments, the first is myGroceryList and the second is an item to add to your grocery list. 
-  In addItem add the item you passed in to myGroceryList then return the new, updated grocery list.
+//
+// Here we're going to write a function that mimics going shopping and checking things 
+// off of our grocery list, and adding new items to our list. Write a function called removeItem 
+// that is given two arguments, the first is myGroceryList, and the second is an item to 
+// remove from myGroceryList. If the second argument (or the item to add or remove) matches 
+// an item in myGroceryList, remove that item from the your grocery list and return the new, 
+// updated grocery list. Once you do that, write another function called addItem that is given 
+// two arguments, the first is myGroceryList and the second is an item to add to your grocery list. 
+// In addItem add the item you passed in to myGroceryList then return the new, updated grocery list.
 
-  removeItem('chips') --> ['pizza', 'hotpockets', 'MtnDew', 'corndogs'];
-  addItem('Jerky') --> ['pizza', 'hotpockets', 'MtnDew', 'corndogs', 'Jerky'];
-*/
+// removeItem('chips') --> ['pizza', 'hotpockets', 'MtnDew', 'corndogs'];
+// addItem('Jerky') --> ['pizza', 'hotpockets', 'MtnDew', 'corndogs', 'Jerky'];
 var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 
 //Code Here
@@ -251,10 +250,10 @@ var longest = function(array1, array2) {
 var result1 = longest(arr1, arr2);
 alert(result1);
 
-/*As a continuation of the previous problem, write another function called 'both'.
-  Your 'both' function will be given two arguments, arr1 and arr2 (from the previous example)
-  'both' should return a new array full of numbers that are found in both arr1 and arr2.
-*/
+// As a continuation of the previous problem, write another function called 'both'.
+// Your 'both' function will be given two arguments, arr1 and arr2 (from the previous example)
+// 'both' should return a new array full of numbers that are found in both arr1 and arr2.
+
 
 //Code Here
 var both = function(array1, array2) {
