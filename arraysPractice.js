@@ -20,11 +20,11 @@ alert(arrElement);
 var arr = [40,50,60];
 
 //Code Here
-var last = function() {
-    return arr[arr.length - 1];
+var last = function(array) {
+    return array[array.length - 1];
 };
 
-var arrElement = last();
+var arrElement = last(arr);
 alert(arrElement);
 
 
@@ -35,9 +35,13 @@ alert(arrElement);
 var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 
 //Code Here
-for (var i = 0; i < family.length; i++) {
-    alert(family[i]);
-}
+var looper = function(array) {
+  for (var i = 0; i < array.length; i++) {
+    alert(array[i]);
+  }
+);
+
+var result = looper(family);
 
 
 // Problem 4
@@ -47,9 +51,12 @@ for (var i = 0; i < family.length; i++) {
 var letters = ['A', 'B', 'C', 'D', 'E'];
 
 //Code Here
-for (var i = letters.length - 1; i >= 0; i--) {
+var reversedLooper = function(array) {
+  for (var i = letters.length - 1; i >= 0; i--) {
     alert(letters[i]);
-}
+  }
+};
+var result = reversedLooper(letters);
 
 
 // Problem 5
@@ -219,8 +226,8 @@ alert(numbers);
 
 
 // Problem 12
-//Above is some code that adds a random number to both arr1 and arr2.
-//Write a function that is given arr1 and arr2 is it's only arguments. Return the array which is longest.
+// Above is some code that adds a random number to both arr1 and arr2.
+// Write a function that is given arr1 and arr2 is it's only arguments. Return the array which is longest.
 var num1 = Math.floor(Math.random() * (30 - 0) + 0);
 var num2 = Math.floor(Math.random() * (30 - 0) + 0);
 var arr1 = [];
